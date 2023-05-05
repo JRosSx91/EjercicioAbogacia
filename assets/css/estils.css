@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+    background: #D8D7D2 url(../imagenes/bg-body5.png) repeat top left;
+    font: 13px/20px 'Lato',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #555;
+}
+main{
+	width:75%;
+	height:80vh;
+	margin:auto;
+	background-color:#fff;
+	border-left:1px solid rgba(0,0,0,.4);
+	border-right:1px solid rgba(0,0,0,.4);
+}
+#cabecera1, #cabecera2{
+	height:110px;
+	font-family: 'Lato';
+}
+#cabecera2{
+	text-align: left;
+	background-color: #ddd;
+	border-bottom: 1px solid rgba(0,0,0,.4);
+}
+#cabecera2 hgroup{
+	width:85%;
+	padding:30px 20px 30px 20px;
+	margin: auto;
+}
+h2{
+	color: black;
+	font-family: 'Lato'
+}
+#cabecera2 hgroup h4{
+	color: #444;
+}
+aside{
+	width:30%;
+	background-color: white;
+	float:left;
+	border-right: 1% black solid;
+}
+aside section{
+	width:70%;
+	margin:auto;
+	padding:60px 0 50px 0;
+	text-align: center;
+}
+aside section li{
+	border-bottom:1px #aaa solid;
+	padding: 5px;
+	list-style: none;
+}
+.first{
+	border-top:1px solid #aaa;
+}
+#principal{
+	width:70%;
+	background-color: white;
+	float:left;
+}
+#formulario{
+	width:90%;
+	padding:50px 0 50px 0;
+	margin:auto;
+	line-height: 1.5;
+}
+.opciones{
+	width:40%;
+	padding:20px;
+	text-align: center;
+	display: inline-block;
+}
+.op1, .op2{
+	padding:20px;
+	border: 1px rgba(0,0,0,.4) solid;
+	background-color: #eee;
+	display: inline-block;
+}
+.op1{
+	margin-bottom:15px;
+	color:darkblue;
+}
+.op2{
+	color:darkgreen;
+}
+.mapa{
+	width:50%;
+	position:relative;
+	top: -270px;
+	left:270px;
+}
+footer{
+	background-color: #ddd;
+	width:75%;
+	margin: auto;
+	clear:both;
+	height:189px;
+}

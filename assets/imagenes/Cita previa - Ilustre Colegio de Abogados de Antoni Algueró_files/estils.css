@@ -1,0 +1,10 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+    background: #D8D7D2 url(../imagenes/bg-body5.png) repeat top left;
+    font: 13px/20px 'Droid Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #555;
+}
